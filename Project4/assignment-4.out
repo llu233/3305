@@ -1,0 +1,212 @@
+Script started on 2023-03-21 21:14:47-04:00 [COMMAND="./run-assignment.sh 4" TERM="xterm-256color" TTY="/dev/pts/452" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 4 STARTED - Tue 21 Mar 2023 09:14:47 PM EDT
+
+Cleaning environment
+----------------------------
+rm -f assignment-4
+
+Checking environment
+----------------------------
+c349fde53687117c81315563aedb1c09  ./run-assignment.sh
+352d8d787573e9994ebcce31a43988bc  assignment-4.c
+Makefile: OK
+assignment-4-input.csv: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/llu233/3305/Assignment-4'
+gcc -o assignment-4 assignment-4.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/llu233/3305/Assignment-4'
+
+Assignment 4
+----------------------------
+
+-- Invalid parameters (0) --
+Proper usage is ./assignment-4 [-f|-s|-r <quantum>] <Input file name>
+
+-- Invalid parameters (4+) --
+Proper usage is ./assignment-4 [-f|-s|-r <quantum>] <Input file name>
+
+-- Invalid filename --
+Could not open file file-does-not-exist.txt
+
+-- First Come First Served --
+First Come First Served
+T0 : P0,3  - Burst left  -1516601216, Wait time  1516601216, Turnaround time  0
+T1 : P1,8  - Burst left  0, Wait time  0, Turnaround time  0
+T2 : P2,1  - Burst left  1, Wait time  0, Turnaround time  1
+T3 : P3,4  - Burst left  0, Wait time  1, Turnaround time  1
+T4 : P4,12  - Burst left  3, Wait time  0, Turnaround time  3
+T5 : P5,19  - Burst left  0, Wait time  3, Turnaround time  3
+T6 : P6,15  - Burst left  0, Wait time  3, Turnaround time  3
+T7 : P7,17  - Burst left  1, Wait time  2, Turnaround time  3
+T8 : P8,3  - Burst left  2432, Wait time  0, Turnaround time  2432
+T9 : P9,18  - Burst left  2432, Wait time  0, Turnaround time  2432
+T10 : P10,17  - Burst left  2432, Wait time  0, Turnaround time  2432
+T11 : P11,14  - Burst left  2432, Wait time  0, Turnaround time  2432
+T12 : P12,10  - Burst left  512, Wait time  1920, Turnaround time  2432
+T13 : P13,1  - Burst left  0, Wait time  2432, Turnaround time  2432
+T14 : P14,13  - Burst left  197, Wait time  2235, Turnaround time  2432
+T15 : P15,16  - Burst left  1, Wait time  2431, Turnaround time  2432
+T16 : P16,12  - Burst left  2097152, Wait time  0, Turnaround time  2097152
+T17 : P17,13  - Burst left  32765, Wait time  2064387, Turnaround time  2097152
+T18 : P18,9  - Burst left  2, Wait time  2097150, Turnaround time  2097152
+T19 : P19,6  - Burst left  0, Wait time  2097152, Turnaround time  2097152
+P0,3
+	Waiting time:         1516601216
+	Turnaround time:      0
+P1,8
+	Waiting time:         0
+	Turnaround time:      0
+P2,1
+	Waiting time:         0
+	Turnaround time:      1
+P3,4
+	Waiting time:         1
+	Turnaround time:      1
+P4,12
+	Waiting time:         0
+	Turnaround time:      3
+P5,19
+	Waiting time:         3
+	Turnaround time:      3
+P6,15
+	Waiting time:         3
+	Turnaround time:      3
+P7,17
+	Waiting time:         2
+	Turnaround time:      3
+P8,3
+	Waiting time:         0
+	Turnaround time:      2432
+P9,18
+	Waiting time:         0
+	Turnaround time:      2432
+P10,17
+	Waiting time:         0
+	Turnaround time:      2432
+P11,14
+	Waiting time:         0
+	Turnaround time:      2432
+P12,10
+	Waiting time:         1920
+	Turnaround time:      2432
+P13,1
+	Waiting time:         2432
+	Turnaround time:      2432
+P14,13
+	Waiting time:         2235
+	Turnaround time:      2432
+P15,16
+	Waiting time:         2431
+	Turnaround time:      2432
+P16,12
+	Waiting time:         0
+	Turnaround time:      2097152
+P17,13
+	Waiting time:         2064387
+	Turnaround time:      2097152
+P18,9
+	Waiting time:         2097150
+	Turnaround time:      2097152
+P19,6
+	Waiting time:         2097152
+	Turnaround time:      2097152
+Total average waiting time:     76143446.6
+Total average turnaround time:  420403.9
+
+-- Shortest Job First --
+Shortest Job First
+T0 : P2,1  - Burst left  0, Wait time  1, Turnaround time  1
+T1 : P7,17  - Burst left  0, Wait time  2, Turnaround time  2
+T2 : P15,16  - Burst left  0, Wait time  3, Turnaround time  3
+T3 : P18,9  - Burst left  1, Wait time  2047, Turnaround time  2048
+T4 : P18,9  - Burst left  0, Wait time  5, Turnaround time  5
+T5 : P4,12  - Burst left  2, Wait time  -2, Turnaround time  0
+T6 : P4,12  - Burst left  1, Wait time  -1, Turnaround time  0
+T7 : P4,12  - Burst left  0, Wait time  8, Turnaround time  8
+T8 : P14,13  - Burst left  196, Wait time  -98625464, Turnaround time  -98625268
+T9 : P14,13  - Burst left  195, Wait time  -98625463, Turnaround time  -98625268
+T10 : P14,13  - Burst left  194, Wait time  -98625462, Turnaround time  -98625268
+T11 : P14,13  - Burst left  193, Wait time  -98625461, Turnaround time  -98625268
+T12 : P14,13  - Burst left  192, Wait time  -98625460, Turnaround time  -98625268
+T13 : P14,13  - Burst left  191, Wait time  -98625459, Turnaround time  -98625268
+T14 : P14,13  - Burst left  190, Wait time  -98625458, Turnaround time  -98625268
+P0,3
+	Waiting time:          32566
+	Turnaround time:       768085778
+P1,8
+	Waiting time:          1
+	Turnaround time:       0
+P2,1
+	Waiting time:          1
+	Turnaround time:       1
+P3,4
+	Waiting time:          1764756512
+	Turnaround time:       32767
+P4,12
+	Waiting time:          8
+	Turnaround time:       8
+P5,19
+	Waiting time:          1765356072
+	Turnaround time:       32767
+P6,15
+	Waiting time:          0
+	Turnaround time:       0
+P7,17
+	Waiting time:          2
+	Turnaround time:       2
+P8,3
+	Waiting time:          2432
+	Turnaround time:       2432
+P9,18
+	Waiting time:          2432
+	Turnaround time:       2432
+P10,17
+	Waiting time:          2432
+	Turnaround time:       2432
+P11,14
+	Waiting time:          0
+	Turnaround time:       0
+P12,10
+	Waiting time:          1024
+	Turnaround time:       0
+P13,1
+	Waiting time:          0
+	Turnaround time:       0
+P14,13
+	Waiting time:          0
+	Turnaround time:       -98625268
+P15,16
+	Waiting time:          3
+	Turnaround time:       3
+P16,12
+	Waiting time:          0
+	Turnaround time:       1764756976
+P17,13
+	Waiting time:          16777216
+	Turnaround time:       0
+P18,9
+	Waiting time:          5
+	Turnaround time:       5
+P19,6
+	Waiting time:          256
+	Turnaround time:       0
+Total average waiting time:     -37401816.7
+Total average turnaround time:  -93033848.0
+
+-- Round Robin (Time Quantum 3) --
+Proper usage is ./assignment-4 [-f|-s|-r <quantum>] <Input file name>
+
+-- Round Robin (Time Quantum 12) --
+Proper usage is ./assignment-4 [-f|-s|-r <quantum>] <Input file name>
+
+Cleaning environment
+----------------------------
+rm -f assignment-4
+
+ASSIGNMENT 4 COMPLETED - Tue 21 Mar 2023 09:15:11 PM EDT
+
+Script done on 2023-03-21 21:15:11-04:00 [COMMAND_EXIT_CODE="0"]

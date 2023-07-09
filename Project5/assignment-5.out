@@ -1,0 +1,43 @@
+Script started on 2023-04-06 20:57:53-04:00 [COMMAND="./run-assignment.sh 5" TERM="xterm-256color" TTY="/dev/pts/319" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 5 STARTED - Thu 06 Apr 2023 08:57:53 PM EDT
+
+Cleaning environment
+----------------------------
+rm -f assignment-5
+
+Checking environment
+----------------------------
+af36ed4145c2285730afa41687618ffe  ./run-assignment.sh
+200b3417c0077606df02ee5203782087  assignment-5.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/llu233/3305/Assignment-5'
+gcc -o assignment-5 assignment-5.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/llu233/3305/Assignment-5'
+
+Assignment 5
+----------------------------
+Train 1 ENTERS Station 0
+	Station 0 has 500 passengers to pick up
+	Picking up passengers...
+	Train 1 is at Station 0 and has 50/50 passengers
+	Station 0 has 450 passengers to pick up
+Train 1 LEAVES Station 0
+Train 0 ENTERS Station 0
+	Station 0 has 450 passengers to pick up
+	Picking up passengers...
+Train 1 ENTERS Station 1
+	Station 1 has 50 passengers to drop off
+	Unloading passengers...
+	Train 1 is at Station 1 and has 0/50 passengers
+	Station 1 has 100 passengers to drop off
+Train 1 LEAVES Station 1
+Train 1 ENTERS Station 1
+	Station 1 has 100 passengers to pick up
+	Picking up passengers...
+^C
+Script done on 2023-04-06 20:58:11-04:00 [COMMAND_EXIT_CODE="130"]

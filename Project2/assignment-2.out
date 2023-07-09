@@ -1,0 +1,192 @@
+Script started on 2023-03-08 15:37:32-05:00 [COMMAND="./run-assignment.sh 2" TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 2 STARTED - Wed 08 Mar 2023 03:37:32 PM EST
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+Checking environment
+----------------------------
+846ec3b283736bf8a0c1d7065e6d8de3  ./run-assignment.sh
+6da574f0e8c6011d5dd0007d7995eb1f  assignment-2.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/llu233/3305/Assignment-2'
+gcc -o assignment-2 assignment-2.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/llu233/3305/Assignment-2'
+
+Assignment 2
+----------------------------
+Your integers are 1 2
+Parent (PID 1578656): created child (PID 1578657)
+
+###
+# Calculating X
+###
+Parent (PID 1578656): Sending 0 to child
+Parent (PID 1578656): Sending 0 to child
+        Child (PID 1578657): Received 0 from parent
+        Child (PID 1578657): Received 0 from parent
+        Child (PID 1578657): Sending 0 to parent
+Parent (PID 1578656): Received 0 from child
+
+###
+# Calculating Y
+###
+Parent (PID 1578656): Sending 1 to child
+Parent (PID 1578656): Sending 0 to child
+        Child (PID 1578657): Received 1 from parent
+        Child (PID 1578657): Received 0 from parent
+        Child (PID 1578657): Sending 0 to parent
+Parent (PID 1578656): Received 0 from child
+Parent (PID 1578656): Sending 0 to child
+Parent (PID 1578656): Sending 2 to child
+        Child (PID 1578657): Received 0 from parent
+        Child (PID 1578657): Received 2 from parent
+        Child (PID 1578657): Sending 0 to parent
+Parent (PID 1578656): Received 0 from child
+
+###
+# Calculating Z
+###
+Parent (PID 1578656): Sending 1 to child
+Parent (PID 1578656): Sending 2 to child
+        Child (PID 1578657): Received 1 from parent
+        Child (PID 1578657): Received 2 from parent
+        Child (PID 1578657): Sending 2 to parent
+Parent (PID 1578656): Received 2 from child
+
+1*2 == 0 + 0 + 2 == 2
+Enter: ./assignment-2 <number1> <number2>
+Your integers are 1234 5678
+Parent (PID 1578659): created child (PID 1578660)
+
+###
+# Calculating X
+###
+Parent (PID 1578659): Sending 12 to child
+Parent (PID 1578659): Sending 56 to child
+        Child (PID 1578660): Received 12 from parent
+        Child (PID 1578660): Received 56 from parent
+        Child (PID 1578660): Sending 672 to parent
+Parent (PID 1578659): Received 672 from child
+
+###
+# Calculating Y
+###
+Parent (PID 1578659): Sending 34 to child
+Parent (PID 1578659): Sending 56 to child
+        Child (PID 1578660): Received 34 from parent
+        Child (PID 1578660): Received 56 from parent
+        Child (PID 1578660): Sending 1904 to parent
+Parent (PID 1578659): Received 1904 from child
+Parent (PID 1578659): Sending 12 to child
+Parent (PID 1578659): Sending 78 to child
+        Child (PID 1578660): Received 12 from parent
+        Child (PID 1578660): Received 78 from parent
+        Child (PID 1578660): Sending 936 to parent
+Parent (PID 1578659): Received 936 from child
+
+###
+# Calculating Z
+###
+Parent (PID 1578659): Sending 34 to child
+Parent (PID 1578659): Sending 78 to child
+        Child (PID 1578660): Received 34 from parent
+        Child (PID 1578660): Received 78 from parent
+        Child (PID 1578660): Sending 2652 to parent
+Parent (PID 1578659): Received 2652 from child
+
+1234*5678 == 6720000 + 284000 + 2652 == 7006652
+Your integers are 9999 9999
+Parent (PID 1578661): created child (PID 1578662)
+
+###
+# Calculating X
+###
+Parent (PID 1578661): Sending 99 to child
+Parent (PID 1578661): Sending 99 to child
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Sending 9801 to parent
+Parent (PID 1578661): Received 9801 from child
+
+###
+# Calculating Y
+###
+Parent (PID 1578661): Sending 99 to child
+Parent (PID 1578661): Sending 99 to child
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Sending 9801 to parent
+Parent (PID 1578661): Received 9801 from child
+Parent (PID 1578661): Sending 99 to child
+Parent (PID 1578661): Sending 99 to child
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Sending 9801 to parent
+Parent (PID 1578661): Received 9801 from child
+
+###
+# Calculating Z
+###
+Parent (PID 1578661): Sending 99 to child
+Parent (PID 1578661): Sending 99 to child
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Received 99 from parent
+        Child (PID 1578662): Sending 9801 to parent
+Parent (PID 1578661): Received 9801 from child
+
+9999*9999 == 98010000 + 1960200 + 9801 == 99980001
+Your integers are 1000 1000
+Parent (PID 1578663): created child (PID 1578666)
+
+###
+# Calculating X
+###
+Parent (PID 1578663): Sending 10 to child
+Parent (PID 1578663): Sending 10 to child
+        Child (PID 1578666): Received 10 from parent
+        Child (PID 1578666): Received 10 from parent
+        Child (PID 1578666): Sending 100 to parent
+Parent (PID 1578663): Received 100 from child
+
+###
+# Calculating Y
+###
+Parent (PID 1578663): Sending 0 to child
+Parent (PID 1578663): Sending 10 to child
+        Child (PID 1578666): Received 0 from parent
+        Child (PID 1578666): Received 10 from parent
+        Child (PID 1578666): Sending 0 to parent
+Parent (PID 1578663): Received 0 from child
+Parent (PID 1578663): Sending 10 to child
+Parent (PID 1578663): Sending 0 to child
+        Child (PID 1578666): Received 10 from parent
+        Child (PID 1578666): Received 0 from parent
+        Child (PID 1578666): Sending 0 to parent
+Parent (PID 1578663): Received 0 from child
+
+###
+# Calculating Z
+###
+Parent (PID 1578663): Sending 0 to child
+Parent (PID 1578663): Sending 0 to child
+        Child (PID 1578666): Received 0 from parent
+        Child (PID 1578666): Received 0 from parent
+        Child (PID 1578666): Sending 0 to parent
+Parent (PID 1578663): Received 0 from child
+
+1000*1000 == 1000000 + 0 + 0 == 1000000
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+ASSIGNMENT 2 COMPLETED - Wed 08 Mar 2023 03:37:32 PM EST
+
+Script done on 2023-03-08 15:37:32-05:00 [COMMAND_EXIT_CODE="0"]

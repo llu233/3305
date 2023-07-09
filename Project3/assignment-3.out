@@ -1,0 +1,27 @@
+Script started on 2023-03-07 19:15:57-05:00 [COMMAND="./run-assignment.sh 3" TERM="xterm-256color" TTY="/dev/pts/87" COLUMNS="91" LINES="63"]
+[H[2J[3J
+ASSIGNMENT 3 STARTED - Tue 07 Mar 2023 07:15:57 PM EST
+
+Cleaning environment
+----------------------------
+rm -f assignment-3
+
+Checking environment
+----------------------------
+4b02c9d49c0df28c2b349926e435fb10  ./run-assignment.sh
+2ec551b049868c064349939e895efe55  assignment-3.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/llu233/3305/Assignment-3'
+gcc -o assignment-3 assignment-3.c -Wall -Wpedantic -Wextra -std=gnu17
+/usr/bin/ld: /tmp/ccLfGpbI.o: in function `primes':
+assignment-3.c:(.text+0xde): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:8: all] Error 1
+make[1]: Leaving directory '/home/llu233/3305/Assignment-3'
+make: *** [Makefile:5: default] Error 2
+
+Script done on 2023-03-07 19:15:57-05:00 [COMMAND_EXIT_CODE="1"]

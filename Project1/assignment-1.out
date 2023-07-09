@@ -1,0 +1,4 @@
+Script started on 2023-01-31 18:01:01-05:00 [COMMAND="./run-assignment.sh 1" TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+bash: line 1: ./run-assignment.sh: Permission denied
+
+Script done on 2023-01-31 18:01:01-05:00 [COMMAND_EXIT_CODE="126"]
